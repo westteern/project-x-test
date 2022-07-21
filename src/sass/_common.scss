@@ -1,1 +1,6 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--primary-text);
+}
