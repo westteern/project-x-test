@@ -1,0 +1,107 @@
+.card-contacts {
+  text-decoration: none;
+}
+/* карточки точек питания */
+.card_item {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 40px 32px;
+  width: 280px;
+  height: 412px;
+  background: var(--white-color);
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+.card_item:last-child {
+  margin-bottom: 32px;
+}
+.title__food {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  width: 80px;
+  height: 16px;
+  font-size: 12px;
+  line-height: calc(22px / 12px);
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: var(--brown-bg-color);
+  border-radius: 4px;
+}
+.card_item:nth-child(2) > .title__food {
+  width: 130px;
+  height: 16px;
+  background: var(--green-bg-color);
+}
+/* стилизация содержимого */
+.city,
+.work-week {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.city__title {
+  margin-bottom: 8px;
+}
+.work-days {
+  margin-bottom: 8px;
+}
+.work__time {
+  font-size: 12px;
+  line-height: calc(12px / 22px);
+  color: #ffa5ba;
+}
+.mailphone {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(18px / 12px);
+}
+.card__mail,
+.card__phone {
+  color: #907e82;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card__mail:hover,
+.card__mail:focus,
+.card__phone:hover,
+.card__phone:focus {
+  color: var(--title-color);
+}
+
+/* BUTTONS */
+.btn-foodpoints__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.btn-foodpoints__item:last-child {
+  margin-bottom: 0;
+}
+.button-foodpoints {
+  margin-left: auto;
+  margin-right: auto;
+  width: 161px;
+  height: 44px;
+  text-align: center;
+  color: var(--white-color);
+  background: #d41342;
+  border-radius: 22px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 0;
+  cursor: pointer;
+}
+
+.button-foodpoints:hover,
+.button-foodpoints:focus {
+  color: #d41342;
+  background: var(--white-color);
+  outline: none;
+}
